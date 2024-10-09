@@ -13,3 +13,8 @@ Input URLs: Users input URLs of news articles they want to analyze.
 Process Articles: The application fetches content from the URLs and splits the content into chunks.
 Embedding & Vectorization: Using OpenAI embeddings, the content is transformed into a vector format and stored in a FAISS index.
 Ask a Question: Users can input queries, and the app will search the vector store to find relevant information, providing answers with sources from the articles.
+
+Steps: 
+git clone https://github.com/dinesh2931/News-Articles-Analysis-using-LangChain
+pip install requirements.txt
+streamlit run app.py
